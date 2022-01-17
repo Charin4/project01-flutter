@@ -67,7 +67,7 @@ class Myapp extends StatelessWidget {
                         Text(
                           'chrben69@gmail.com',
                           style: TextStyle(
-                            fontSize: 20.0,
+                            fontSize: 10.0,
 
                           ),
                         )
