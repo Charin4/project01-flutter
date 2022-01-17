@@ -53,11 +53,11 @@ class Myapp extends StatelessWidget {
 
                   ),
                 ),
-                Card(
-                  color: Colors.white,
-                  margin: EdgeInsets.symmetric(vertical: 10.0,horizontal: 25.0),
-                  child: Padding(
-                    padding: EdgeInsets.all(25.0),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Card(
+                    color: Colors.white,
+                    margin: EdgeInsets.symmetric(vertical: 10.0,horizontal: 25.0),
                     child: Row(
                       children: <Widget> [
                         Icon(Icons.email,
